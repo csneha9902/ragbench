@@ -99,7 +99,7 @@ def retrieve_context(query, top_n=5, alpha=0.5):
             load_bm25_retriever()
         if _bm25_retriever:
             _bm25_retriever.k = top_n * 2 if alpha > 0.0 else top_n
-            keyword_docs = _bm25_retriever.get_relevant_documents(query)
+            keyword_docs = _bm25_retriever.invoke(query)
             
     # Combine or select
     if alpha == 1.0:

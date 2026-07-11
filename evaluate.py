@@ -7,16 +7,7 @@ from datasets import Dataset
 from retrieve import get_embeddings
 from generate import get_llm, generate_answer
 
-# Ragas imports
-from ragas import evaluate
-from ragas.metrics import (
-    faithfulness,
-    answer_relevancy,
-    context_recall,
-    context_precision,
-)
-from ragas.llms import LangchainLLMWrapper
-from ragas.embeddings import LangchainEmbeddingsWrapper
+# Ragas imports will be loaded dynamically in run_evaluation to prevent startup crashes when dependencies are resolving.
 
 load_dotenv()
 
@@ -70,6 +61,17 @@ def run_evaluation(top_n=5, alpha=0.5):
     
     # Configure custom LLM and Embeddings for Ragas
     print("Configuring LLM and Embeddings wrapper for Ragas...")
+    
+    from ragas import evaluate
+    from ragas.metrics import (
+        faithfulness,
+        answer_relevancy,
+        context_recall,
+        context_precision,
+    )
+    from ragas.llms import LangchainLLMWrapper
+    from ragas.embeddings import LangchainEmbeddingsWrapper
+    
     llm = get_llm()
     embeddings = get_embeddings()
     
