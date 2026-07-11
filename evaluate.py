@@ -76,7 +76,7 @@ def run_evaluation(top_n=5, alpha=0.5):
     embeddings = get_embeddings()
     
     ragas_llm = LangchainLLMWrapper(langchain_llm=llm)
-    ragas_embeddings = LangchainEmbeddingsWrapper(langchain_embeddings=embeddings)
+    ragas_embeddings = LangchainEmbeddingsWrapper(embeddings=embeddings)
     
     # Assign custom LLM and embeddings to metrics
     metrics = [faithfulness, answer_relevancy, context_recall, context_precision]
