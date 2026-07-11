@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+
+# Vector Database
+vector_db/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store

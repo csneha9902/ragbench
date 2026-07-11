@@ -1,0 +1,15 @@
+streamlit
+fastapi
+uvicorn
+chromadb
+langchain
+langchain-community
+langchain-google-genai
+ragas
+sentence-transformers
+pypdf
+reportlab
+python-dotenv
+pandas
+plotly
+numpy

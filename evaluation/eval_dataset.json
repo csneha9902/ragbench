@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the annual leave accrual rate?",
+    "ground_truth": "All full-time employees accrue paid annual leave (vacation time) at a rate of 1.25 days per month, which totals exactly 15 annual leave days per calendar year."
+  },
+  {
+    "question": "How many vacation days can be carried over to the next year?",
+    "ground_truth": "A maximum of 5 unused vacation days can be carried over to the next calendar year."
+  },
+  {
+    "question": "What happens to unused vacation days beyond the carry-over limit?",
+    "ground_truth": "Unused vacation days beyond the 5-day carry-over limit will be forfeited on December 31st."
+  },
+  {
+    "question": "How many paid sick days do employees get annually?",
+    "ground_truth": "Employees receive 10 paid sick days per calendar year, allotted on January 1st."
+  },
+  {
+    "question": "When is a medical certificate required for sick leave?",
+    "ground_truth": "A medical certificate from a licensed physician must be submitted if an employee is absent for more than three consecutive sick days."
+  },
+  {
+    "question": "How much paid maternity leave is provided to birthing mothers?",
+    "ground_truth": "Birthing mothers are entitled to 26 weeks of fully paid maternity leave to support recovery and bonding."
+  },
+  {
+    "question": "What is the parental leave policy for non-birthing parents?",
+    "ground_truth": "Non-birthing parents, including adoptive and foster parents, are entitled to 4 weeks of fully paid paternity/parental leave."
+  },
+  {
+    "question": "Within what timeframe must parental leave be taken?",
+    "ground_truth": "All parental leave must be taken within the first 12 months of the child's birth or placement."
+  },
+  {
+    "question": "How many days of bereavement leave are granted for the death of an immediate family member?",
+    "ground_truth": "Employees are eligible for up to 5 consecutive paid days off for the death of an immediate family member (spouse, child, parent, or sibling)."
+  },
+  {
+    "question": "How many days of bereavement leave are provided for extended family members?",
+    "ground_truth": "For extended family members (grandparents, aunts, uncles), 2 paid days off are provided."
+  },
+  {
+    "question": "How many public holidays does RAGBench Enterprises observe?",
+    "ground_truth": "The company officially observes 11 public holidays per year, during which offices are closed."
+  },
+  {
+    "question": "What percentage of the health insurance premium does the company cover?",
+    "ground_truth": "The company covers 80% of the premium for health insurance for employees and their dependents."
+  },
+  {
+    "question": "Which providers are used for dental and vision insurance?",
+    "ground_truth": "Dental coverage is provided through Delta Dental, and vision coverage is provided through VSP."
+  },
+  {
+    "question": "What is the company's 401(k) matching policy?",
+    "ground_truth": "RAGBench Enterprises will match 100% of employee contributions up to a maximum of 4% of the employee's base salary."
+  },
+  {
+    "question": "What is the vesting schedule for the company's 401(k) match?",
+    "ground_truth": "The matched contributions are subject to a 2-year vesting schedule: 50% vests after 1 year, and 100% vests after 2 years."
+  },
+  {
+    "question": "How much does the company contribute to a Health Savings Account (HSA) for family coverage?",
+    "ground_truth": "The company will contribute $1,000 annually for family coverage, deposited in quarterly installments, for employees enrolled in the High Deductible Health Plan (HDHP)."
+  },
+  {
+    "question": "What is the maximum monthly wellness reimbursement amount?",
+    "ground_truth": "The company provides a wellness stipend of up to $50 per month for gym memberships, fitness classes, or health app subscriptions."
+  },
+  {
+    "question": "What are the requirements to receive reimbursement under the Tuition Assistance Program?",
+    "ground_truth": "Courses must be pre-approved by the manager and HR, and the employee must achieve a grade of 'B' or higher (or 'Pass' in pass/fail courses) to receive reimbursement of up to $5,250 per year."
+  },
+  {
+    "question": "What are the core remote working hours?",
+    "ground_truth": "Core working hours are 10:00 AM to 4:00 PM EST, during which all remote employees must be online, responsive on Slack, and available for meetings."
+  },
+  {
+    "question": "What is the monthly remote work internet subsidy?",
+    "ground_truth": "The company provides a remote work internet subsidy of $40 per month, reimbursable through quarterly expenses."
+  }
+]
