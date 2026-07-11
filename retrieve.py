@@ -115,6 +115,14 @@ def retrieve_context(query, top_n=5, alpha=0.5):
 def reset_retrievers():
     """Reset the cached retrievers when re-ingestion occurs."""
     global _vector_db, _bm25_retriever
+    if _vector_db is not None:
+        try:
+            if hasattr(_vector_db, "_client") and hasattr(_vector_db._client, "close"):
+                _vector_db._client.close()
+        except Exception as e:
+            print(f"Warning closing Chroma client: {e}")
     _vector_db = None
     _bm25_retriever = None
+    import gc
+    gc.collect()
     print("Cached retrievers have been reset.")
