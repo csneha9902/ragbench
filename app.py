@@ -86,7 +86,7 @@ st.markdown("""
         letter-spacing: 0.05em;
     }
 </style>
-""", unsafe_allow_exists=True, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # Helper function to check if API is running
 def check_api():
